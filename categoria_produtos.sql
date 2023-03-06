@@ -1,14 +1,15 @@
-criar  tabela  categoria 
- 
-(codcat número ( 2 ) restrição cat_codcat_pk chave primária ,
-nomecat varchar2 ( 40 ) restrição nomecat_nn não nulo 
-restrição nomecat_uk exclusivo
-);
-criar  mesa  produto 
- 
-(codigo_produto número ( 4 ) restrição pro_cod_pk chave primária ,
-nome_produto varchar2 ( 40 ) restrição pro_nome_nn não nulo 
-restrição pro_nome_uk único,
-quantidade_produto número ( 2 ),
-número do preco_produto ( 7 , 2 ),
-codcat número ( 2 ) restrição pro_cat_codcat_fk referencia categoria);
+create table categoria  
+
+(codcat number(2) constraint cat_codcat_pk primary key,  
+nomecat varchar2(40) constraint nomecat_nn not null  
+constraint nomecat_uk unique  
+)
+
+create table produto    
+
+(codigo_produto number(4) constraint pro_cod_pk primary key,  
+nome_produto varchar2(40) constraint pro_nome_nn not null  
+constraint pro_nome_uk unique,  
+quantidade_produto number(4),  
+preco_produto number(7,2), 
+codcat number(2) constraint pro_cat_codcat_fk references categoria)

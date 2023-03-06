@@ -1,0 +1,14 @@
+insert into categoria values( 10 , ' Alimentos ' );
+insert into categoria values( 20 , ' Higiene ' );
+insert into categoria values( 30 , ' Limpeza ' );
+insert into produto values( 1001 , ' Arroz ' , 10 , 5 . 50 , 10 ) ;
+insert into produto values( 1002 , ' Desinfetante ' , 10 , 2 . 50 , 30 ) ;
+insert into produto values( 1003 , ' Pasta dental ' , 10 , 3 . 20 , 20 ) ;
+insert into produto values( 1004 , ' Escova de dente ' , 10 , 7 . 80 , 20 ) ;
+insert into produto values( 1005 , ' Sabonete ' , 10 , 1 . 20 , 20 ) ;
+insert into produto values( 1006 , ' feijão ' , 10 , 8 . 20 , 10 ) ;
+insert into produto values( 1007 , ' Manga ' , 10 , 5 . 50 , 10 ) ;
+insert into produto values( 1008 , ' Macarrão ' , 10 , 4 . 20 , 10 ) ;
+insert into produto values( 1009 , ' Cloro ' , 10 , 9 . 80 , 30 ) ;
+insert into produto values( 1010 , ' Detergente ' , 10 , 1 . 0 , 30 ) ;
+Commit;

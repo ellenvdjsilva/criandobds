@@ -64,3 +64,20 @@ insert into produto values( 1009 , ' Cloro ' , 10 , 9 . 80 , 30 ) ;
 insert into produto values( 1010 , ' Detergente ' , 10 , 1 . 0 , 30 ) ;
 Commit;
 ```
+4. Visualizando os campos preenchidos 
+```sql
+select *
+from produto
+
+select *
+from categoria
+```
+
+
+- valores adcionados na tabela categoria
+
+![tabela-categoria](https://github.com/ellenvdjsilva/criandobds/blob/main/tabela-categoria.png)
+
+- valores adcionados na tabela produto
+
+![tabela-produto](https://github.com/ellenvdjsilva/criandobds/blob/main/tabela-produto.png)

@@ -38,13 +38,13 @@ codcat number(2) constraint pro_cat_codcat_fk references categoria)
 
 
 2. Restrições existem e os valores das vozes.
-- Restrições e valores da coluna da tabela categoria
+- Restrições e valores das colunas da tabela categoria
+![restricao-cat](https://github.com/ellenvdjsilva/criandobds/blob/main/restricao-cat.png)
 
-![ restricao-cat ](https://github.com/ellenvdjsilva/criandobds/blob/main/restricao-cat.png)
-- Restrições e valores da coluna da tabela produtos
+- Restrições e valores das colunas da tabela produto
 
-![ restricao-pro ](https://github.com/ellenvdjsilva/criandobds/blob/main/restricao-pro.png)
-![ valor-coluna-pro ](https://github.com/ellenvdjsilva/criandobds/blob/main/valor-coluna-pro.png)
+![coluna_restricoes_produto](https://github.com/ellenvdjsilva/criandobds/blob/main/coluna_restricoes_produto.png)
+
 
 
 3. Inserindo informações nos atributos `inserindo.sql` .

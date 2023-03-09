@@ -81,3 +81,16 @@ from categoria
 - valores adcionados na tabela produto
 
 ![tabela-produto](https://github.com/ellenvdjsilva/criandobds/blob/main/tabela-produto.png)
+
+5. Realizando uma busca que traga as colunas no do produto, preço que seja da categoria higiene.
+
+```sql
+select nome_produto, quantidade_produto, preco_produto
+from produto
+where codcat = '20'
+```
+
+- Visualização do resultado
+
+![busca_1](https://github.com/ellenvdjsilva/criandobds/blob/main/busca_1.png)
+

@@ -82,7 +82,7 @@ from categoria
 
 ![tabela-produto](https://github.com/ellenvdjsilva/criandobds/blob/main/tabela-produto.png)
 
-5. Realizando uma busca que traga as colunas no do produto, preço que seja da categoria higiene.
+5. Realizando uma busca que traga as colunas nome, quantidade e preço da tabela produto, apenas da categoria higiene.
 
 ```sql
 select nome_produto, quantidade_produto, preco_produto

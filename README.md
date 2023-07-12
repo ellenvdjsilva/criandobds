@@ -37,7 +37,7 @@ codcat number(2) constraint pro_cat_codcat_fk references categoria)
 ```
 
 
-2. Restrições existem e os valores das vozes.
+2. Restrições existentes e os valores dos campos.
 - Restrições e valores das colunas da tabela categoria
 ![restricao-cat](https://github.com/ellenvdjsilva/criandobds/blob/main/restricao-cat.png)
 

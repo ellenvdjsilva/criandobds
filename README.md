@@ -12,7 +12,7 @@ Escolhi criar um banco de dados de produtos e categorizar esses produtos, para t
 
 ##  Modelagem
 O banco de dados foi feito com base na modelagem relacional abaixo:
-![ modelagem-relacional ](https://github.com/ellenvdjsilva/criandobds/blob/main/modelagem-relacional.png)
+
 
 ##  Implementação
 Passos tomados para criação do bando de dados:

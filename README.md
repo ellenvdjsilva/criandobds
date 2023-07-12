@@ -15,7 +15,7 @@ O banco de dados foi feito com base na modelagem relacional abaixo:
 
 
 ##  Implementação
-Passos tomados para criação do bando de dados:
+Passos tomados para criação do banco de dados:
 1. Criação das tabelas, atributos, métodos e suas restrições:
 - Criação das tabelas `categoria_produtos.sql` , com essas tabelas que usarei como consultas do SQL.
 ```sql
